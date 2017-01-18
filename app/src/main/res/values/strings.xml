@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="Q1"><u>Q1:</u> The Great Khan, once visited by a famed Venetian merchant&#8230;</string>
+    <string name="Q2"><u>Q2:</u> This famous ship once circumnavigated the world, carrying a certain British explorer whose motto was <i>\"Sic Parvis Magna\"</i><b> (Pick 2 options)</b></string>
+    <string name="Q3"><u>Q3:</u> Although widely (and erroneously) credited with its discovery, Christopher Columbus did not contribute to the naming of America. It was actully named after another explorer:</string>
+    <string name="Q4"><u>Q4:</u> \"The King of Pirates\" was ex-British Navy who in just two short years (1694&#8211;96) became the richest pirate in the world, amassing a modern equivalent of over £50m.</string>
+    <string name="Q5"><u>Q5:</u> Legend has it, that \"The King of Pirates\" brought together other captains, forming a utopia of sorts, commonly referred to as&#8230;</string>
+    <string name="Q6"><u>Q6:</u> The flag pictured below, struck fear into anyone unlucky enough to witness it on the ocean. Who did it belong to?</string>
+    <string name="Q7"><u>Q7:</u> Whilst attempting to complete his monumental circumnavigation of the world, this man, who\'s name is synonymous with exploration, was killed by natives in The Philippines during the Battle of Mactan.</string>
+    <string name="Q8"><u>Q8:</u> <i>The Santa Maria</i> was the largest of three ships used by which explorer?</string>
+    <string name="Hint1"><i>Answer Here</i></string>
+    <string name="Answer_Q2_Option_1">Mary Celeste</string>
+    <string name="Answer_Q2_Option_2">HMS Endeavour</string>
+    <string name="Answer_Q2_Option_3">Cutty Sark</string>
+    <string name="Answer_Q2_Option_4">Golden Hind</string>
+    <string name="Answer_Q2_Option_5">Marco Polo</string>
+    <string name="Answer_Q2_Option_6">Sir Francis Drake</string>
+    <string name="Answer_Q2_Option_7">John Cabot</string>
+    <string name="Answer_Q2_Option_8">Vasco de Gama</string>
+    <string name="Answer_Q3_Option_1">Amerigo Vespucci</string>
+    <string name="Answer_Q3_Option_2">Gonzalez Americo</string>
+    <string name="Answer_Q3_Option_3">Alfredo Americi</string>
+    <string name="Answer_Q3_Option_4">America Ferrera</string>
+    //Question 4 variant answers, spinner
+    <string-array name="King_Pirate">
+        <item>[Select One&#8230;]</item>
+        <item>Thomas Tew</item>
+        <item>Davy Jones</item>
+        <item>Blackbeard</item>
+        <item>Henry Every</item>
+        <item>Calico Jack</item>
+        <item>William Kidd</item>
+    //Arrays for question 6 and 8 answers, use in method
+    </string-array>
+    <string name="Answer_Q6_Option_1">Christopher Condent</string>
+    <string name="Answer_Q6_Option_2">Thomas Tew</string>
+    <string name="Answer_Q6_Option_3">Blackbeard</string>
+    <string name="Answer_Q6_Option_4">William Kidd</string>
+    <string name="Answer_Q8_Option_1">Vasco de Gama</string>
+    <string name="Answer_Q8_Option_2">Marco Polo</string>
+    <string name="Answer_Q8_Option_3">Christopher Columbus</string>
+    <string name="Answer_Q8_Option_4">Francisco Pizzaro</string>
+    //Question 1 variant answers
+    <string-array name="AnswersQ1">
+        <item>Khublai</item>
+        <item>Khublai Khan</item>
+        <item>Khublai Kahn</item>
+        <item>Khubilai</item>
+        <item>Khubilai Khan</item>
+        <item>Khubilai Kahn</item>
+        <item>Shizu</item>
+    </string-array>
+    //Question 5 variant answers
+    <string-array name="AnswersQ5">
+        <item>Libertalia</item>
+        <item>Libertallia</item>
+        <item>Libertatia</item>
+    </string-array>
+    //Question 7 variant answers
+    <string-array name="AnswersQ7">
+        <item>Magellan</item>
+        <item>Ferdinand Magellan</item>
+        <item>Fernando de Magallanes</item>
+        <item>Magallanes</item>
+   //Toast responses
+    </string-array>
+    <string name="less_Than_6_Points">Hmm, could do with brushing up on the old \'historia\' Your score was: </string>
+    <string name="more_Than_6_Points">Not bad, you obviously know some history! Your score was: </string>
+    <string name="perfect_Score">A venerable Indiana Jones! Your score was: </string>
+    <string name="perfect_Score_Suffix">Perfect!!</string>
+</resources>
